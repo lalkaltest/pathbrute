@@ -1,4 +1,4 @@
-build:
+
 - task: Bash@3
   inputs:
     targetType: 'inline'
